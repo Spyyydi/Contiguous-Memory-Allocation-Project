@@ -1,4 +1,6 @@
 # Contiguous-Memory-Allocation-Project
+**The project was made using C language on Linux platform.**
+
 ## Description of the project
 This project will involve managing a contiguous region of memory of size MAX where addresses may range from 0 ... MAX − 1. Your program must respond to four different requests:
 1. Request for a contiguous block of memory
