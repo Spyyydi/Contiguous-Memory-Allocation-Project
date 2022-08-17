@@ -29,6 +29,21 @@ struct Node
     char process_id[100];
 };
 
+
+//Function portotypes
+void create_node(int, int);
+void merge();
+void swap_nodes();
+int find_process(char[3]);
+void first_fit(char[3], int);
+void best_fit(char[3], int);
+void worst_fit(char[3], int);
+void request_memory(char[3], int, char[2]);
+void release_memory(char[3]);
+void compact();
+void status_report();
+void prepare_to_exit();
+
 /**
 * Function create_node creates unused node if there is leftover space after adding requested node.
 * <BR>
