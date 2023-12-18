@@ -66,3 +66,7 @@ Your program will also need to keep track of which region of memory has been all
 If the user enters the C command, your program will compact the set of holes into one larger hole. For example, if you have four separate holes of size 550 KB, 375 KB, 1,900 KB, and 4,500 KB, your program will combine these four holes into one large hole of size 7,325 KB.
 
 There are several strategies for implementing compaction, one of which is suggested in Section 9.2.3. Be sure to update the beginning address of any processes that have been affected by compaction.
+
+---
+
+Initial code taken from [this repository.](https://github.com/Sparkadelic177/Contiguous_Memory_Allocation_Simulator/tree/master)
